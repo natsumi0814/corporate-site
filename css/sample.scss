@@ -497,7 +497,7 @@ h1{
   padding-top:20px;
   
   .row{
-    padding:0 20px;
+  padding:0 20px;
   }
   
   #main{
@@ -558,3 +558,10 @@ h1{
   }
 }
 
+#contents{
+  #main{
+    th{
+      color:#626262;
+    }
+  }
+}

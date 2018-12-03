@@ -308,4 +308,7 @@ h1 {
   background-image: url(../images/news/side_arrow.png);
   background-size: 4px 8px; }
 
+#contents #main th {
+  color: #626262; }
+
 /*# sourceMappingURL=sample.css.map */
