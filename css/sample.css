@@ -37,7 +37,7 @@ header {
     header .sp_navi {
       display: none; }
     header #header_in {
-      padding: 15px 0 10px 0; }
+      padding: 15px 0 15px 0; }
     header .pc_navi_li {
       margin: 0;
       padding: 0; }
@@ -255,35 +255,36 @@ h1 {
 #subcover h2 {
   text-align: center;
   color: white;
-  font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;
   margin: 0;
   letter-spacing: 0.2rem; }
   @media (min-width: 550px) {
     #subcover h2 {
-      font-size: 25px; } }
+      font-size: 3.2rem; } }
 
 #contents {
   padding-top: 20px; }
   #contents .row {
     padding: 0 20px; }
-  #contents #main h2 {
-    color: #42b9d0;
-    border-bottom: 3px solid #42b9d0;
-    font-size: 15px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-bottom: 15px; }
-  #contents #main ul {
-    list-style: none; }
-  #contents #main .news_li {
-    font-size: 1.5rem; }
-    #contents #main .news_li span {
+  #contents #main {
+    padding-right: 20px; }
+    #contents #main h2 {
       color: #42b9d0;
-      display: block;
+      border-bottom: 3px solid #42b9d0;
+      font-size: 15px;
+      font-size: 1.5rem;
       font-weight: bold;
-      margin-bottom: 3px; }
+      padding-bottom: 15px; }
+    #contents #main ul {
+      list-style: none; }
+    #contents #main .news_li {
+      font-size: 1.5rem; }
+      #contents #main .news_li span {
+        color: #42b9d0;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 3px; }
 
 @media (max-width: 550px) {
   .pc_sidemenu {
@@ -309,6 +310,11 @@ h1 {
   background-size: 4px 8px; }
 
 #contents #main th {
+  padding-right: 20px;
   color: #626262; }
+#contents #main tr {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 1.4rem; }
 
 /*# sourceMappingURL=sample.css.map */
