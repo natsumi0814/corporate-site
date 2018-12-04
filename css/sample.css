@@ -154,7 +154,8 @@ header {
       color: #42b9d0;
       font-weight: bold;
       display: block;
-      margin-bottom: 3px; }
+      margin-bottom: 3px;
+      color: #42b9d0; }
   @media (min-width: 551px) {
     #news_area .news_title {
       font-size: 22px;
@@ -165,8 +166,9 @@ header {
       font-size: 1.4rem;
       margin-bottom: 20px; }
       #news_area .news_lists li span {
-        display: inline;
-        margin-bottom: 0px; } }
+        display: inline-block;
+        margin-bottom: 0;
+        padding-right: 10px; } }
 
 footer {
   background-color: #42b9d0;
@@ -265,8 +267,6 @@ h1 {
 
 #contents {
   padding-top: 20px; }
-  #contents .row {
-    padding: 0 20px; }
   #contents #main {
     padding-right: 20px; }
     #contents #main h2 {
@@ -286,6 +286,15 @@ h1 {
         font-weight: bold;
         margin-bottom: 3px; }
 
+@media (min-width: 551px) {
+  #contents #main h2 {
+    font-size: 2rem;
+    padding-bottom: 20px; }
+  #contents #main .news_li li {
+    padding-bottom: 5px;
+    margin: 1rem; }
+  #contents #main .news_li span {
+    display: inline-block; } }
 @media (max-width: 550px) {
   .pc_sidemenu {
     display: none; } }
@@ -308,13 +317,21 @@ h1 {
   padding: 10px 10px 10px 20px;
   background-image: url(../images/news/side_arrow.png);
   background-size: 4px 8px; }
+  #contents #sidebar .pc_sidemenu li a {
+    text-decoration: none; }
 
 #contents #main th {
-  padding-right: 20px;
-  color: #626262; }
-#contents #main tr {
   padding: 20px 0;
+  padding-right: 20px;
   color: #626262;
   font-size: 1.4rem; }
+#contents #main td {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 14px;
+  font-size: 1.4rem; }
+
+#contents #main .company_title {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=sample.css.map */
